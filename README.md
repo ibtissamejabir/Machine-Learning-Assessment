@@ -11,14 +11,14 @@ This repository contains the solution for predicting load rates (posted_rate) us
 ## Project Structure
 ```
 .
-├── data/                          # Place original data files here (not included in repo)
+├── data/                         
 │   ├── train_test.csv
 │   ├── validation.csv
 │   └── validation_predictions_template.csv
-├── train_and_predict.py           # Main training & prediction script
-├── score.py                       # Provided scoring script
-├── validation_predictions.csv     # Final predictions (load_id, predicted_rate)
-├── december_chart_inputs.csv      # Fixed December lane predictions for chart
+├── train_and_predict.py           
+├── score.py                       
+├── validation_predictions.csv     
+├── december_chart_inputs.csv      
 ├── requirements.txt
 └── README.md
 ```
